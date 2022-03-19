@@ -20,5 +20,20 @@ public class HelloApplication {
         System.out.println(productInformation2);
         System.out.println(product3.toString());
         System.out.println(product4.toString());
+
+        Product[] products = new Product[]{
+                new Product("111", "Woda", 2.0, 3.0),
+                new Product("134", "Piwo", 3.0, 2.0),
+                product,
+                product2,
+                product3,
+                product4
+
+        };
+
+        Cart cart = new Cart();
+        cart.setProducts();
+
+        System.out.println(cart.toString());
     }
 }
