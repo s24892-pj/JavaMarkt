@@ -12,7 +12,7 @@ public class HelloApplication {
         product.setDiscountPrice(0.0);
         product.setPrice(350.00);
         product.setName("Cukier");
-        int how_many = 3;
+        int how_many = 1;
 
         Product product2 = new Product("232", "mleko", 10.0, 0.0);
         Product product3 = new Product("234", "kawa", 5.0, 0.0);
